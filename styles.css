@@ -1,0 +1,87 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.bg-light-gray {
+    background-color: #f8f9fa;
+}
+
+.bg-red {
+    background-color: #dc3545;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover {
+    color: #ffc107;
+}
+
+.card {
+    border: 1px solid #dc3545;
+    border-radius: 0.25rem;
+}
+
+.card-title {
+    color: #dc3545;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+footer {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+.Logo {
+    border-radius: 50%;
+}
+
+.bg-image {
+    background: url('https://pizzariadesucesso.com/wp-content/uploads/2018/04/pizza-belford-roxo.jpg') no-repeat center center;
+    background-size: cover;
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.text-indent p {
+    text-indent: 2em; 
+    margin-bottom: 1.5em; 
+}
