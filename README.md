@@ -1,6 +1,6 @@
  # Projeto Pizzaria 
 
-Este é um projeto de uma pizzaria, um dos primeiros projetos que eu fiz, sempre me aprimorando e buscando o conhecimento.
+Este é um projeto de uma pizzaria, um dos primeiros projetos que eu fiz, sempre buscando me aprimorar e atrás do conhecimento.
 
 ## Instalação
 
